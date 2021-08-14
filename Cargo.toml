@@ -1,0 +1,12 @@
+[package]
+name = "crash"
+version = "0.1.0"
+authors = ["Gregory Szorc <gregory.szorc@gmail.com>"]
+edition = "2018"
+description = "Demonstrate a Rust crash"
+links = "python3"
+build = "build.rs"
+
+[profile.release]
+debug = true
+incremental = false
